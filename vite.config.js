@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: './', // Use relative paths for deployment
+  base: '/gym-progress-tracker/', // GitHub Pages base path
   plugins: [
     react(),
     VitePWA({
