@@ -8,6 +8,7 @@ import WorkoutLogger from './components/WorkoutLogger';
 import WorkoutHistory from './components/WorkoutHistory';
 import ExerciseList from './components/ExerciseList';
 import ProgressCharts from './components/ProgressCharts';
+import Settings from './components/Settings';
 
 function App() {
     const [currentView, setCurrentView] = useState('dashboard');
@@ -63,6 +64,8 @@ function App() {
                 return <ExerciseList />;
             case 'progress':
                 return <ProgressCharts />;
+            case 'settings':
+                return <Settings />;
             default:
                 return <Dashboard onNavigate={setCurrentView} />;
         }

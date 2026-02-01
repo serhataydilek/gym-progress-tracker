@@ -6,7 +6,8 @@ function Navigation({ currentView, onNavigate }) {
         { id: 'workout', icon: '💪', label: 'Workout' },
         { id: 'history', icon: '📊', label: 'History' },
         { id: 'exercises', icon: '📋', label: 'Exercises' },
-        { id: 'progress', icon: '📈', label: 'Progress' }
+        { id: 'progress', icon: '📈', label: 'Progress' },
+        { id: 'settings', icon: '⚙️', label: 'Settings' }
     ];
 
     return (
